@@ -17,5 +17,8 @@ NeoBundle 'tpope/vim-rails'
 
 call neobundle#end()
 
+set number
+
 " ファイルタイプ別のプラグイン/インデントを有効にする
 filetype plugin indent on
+au BufRead,BufNewFile *.md set filetype=markdown
