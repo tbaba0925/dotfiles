@@ -21,4 +21,15 @@ set number
 
 " ファイルタイプ別のプラグイン/インデントを有効にする
 filetype plugin indent on
-au BufRead,BufNewFile *.md set filetype=markdown
+
+" --------------------------------
+" 基本設定
+" --------------------------------
+" vim内部で使われる文字エンコーディングをutf-8に設定する
+set encoding=utf-8
+
+" ハイライトを有効化する
+syntax enable
+
+" 挿入モードでTABを挿入するとき、代わりに適切な数の空白を使う
+set expandtab
