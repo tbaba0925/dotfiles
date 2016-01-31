@@ -14,6 +14,8 @@ NeoBundle 'junegunn/fzf'
 " ruby / rails
 NeoBundle 'bbatsov/rubocop'
 NeoBundle 'tpope/vim-rails'
+" haskell
+NeoBundle 'dag/vim2hs'
 
 call neobundle#end()
 
